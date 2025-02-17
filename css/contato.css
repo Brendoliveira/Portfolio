@@ -188,3 +188,19 @@
         font-size: 18px;
     
 }
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul li {
+      width: 100%;
+      text-align: center;
+      margin: 20px;
+    }
+    
+    .container {
+      padding: 10px;
+    }
+  }
